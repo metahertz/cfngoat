@@ -869,6 +869,12 @@ Resources:
       Properties:
         PublicAccessBlockConfiguration:
           BlockPublicPolicy: True
+    yaml:AWS::EC2::Volume:
+      Properties:
+        Encrypted: True
+    yaml:AWS::EC2::Volume:
+      Properties:
+        Encrypted: True
 
 Outputs:
   EC2PublicDNS:
