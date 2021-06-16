@@ -869,6 +869,10 @@ Resources:
       Properties:
         PublicAccessBlockConfiguration:
           BlockPublicPolicy: True
+    yaml:AWS::S3::Bucket:
+      Properties:
+        PublicAccessBlockConfiguration:
+          RestrictPublicBuckets: True
 
 Outputs:
   EC2PublicDNS:
